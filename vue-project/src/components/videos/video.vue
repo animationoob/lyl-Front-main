@@ -69,6 +69,7 @@ onUnmounted(() => {
 
 <template>
   <div class="vedio-p" :style="{ height: props.height + '%' }">
+    
     <video id="remote-video" autoplay playsinline controls ref="remoteVideoElement"></video>
   </div>
 </template>
